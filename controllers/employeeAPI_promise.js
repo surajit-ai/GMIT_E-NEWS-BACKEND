@@ -33,8 +33,8 @@ router.post('/register', (req, res) =>
     var mailOptions = {
         from: 'gmitcse1@gmail.com',
         to: req.body.empemail,
-        subject: "Good Morning to the Night ouls",
-        text:"oaherpfaurghaur popiuahrg paiuhrf piauh gpiuahr pgfipiua gfpau ghfpaurgf pauirgf pau rg"+req.body.empimg
+        subject: "Registation Sucessfull",
+        text: "your email is : "+ req.body.empemail + " and your password is : " + req.body.emppass,
     };
   
                    empobj.save()
