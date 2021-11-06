@@ -8,7 +8,8 @@ let EmployeeModel = model_mongoose.model('emp_model_collection',
     empemail: { type: String },
     empmobile: { type: String },
     emppass: { type: String },
-    empimg: { type: String }
+    empimg: { type: String },
+    status: { type: String }
     // empgender: { type: String },
     // empcountry: { type: String },
     // empaddress: { type: String },
